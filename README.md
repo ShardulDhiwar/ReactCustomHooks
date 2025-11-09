@@ -6,7 +6,7 @@
 ---
 
 ### 🧠 Overview
-This project demonstrates a reusable custom React Hook (`useFetch`) that handles data fetching, loading, and error states efficiently.  
+This project demonstrates a reusable custom React Hook called `useFetch` that handles data fetching, loading, and error states efficiently.  
 The goal was to simplify API calls across multiple components and make the code cleaner, reusable, and easier to maintain.
 
 ---
