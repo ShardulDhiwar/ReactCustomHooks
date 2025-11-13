@@ -26,8 +26,7 @@ const Photos = () => {
         Photos
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {data &&
-          data.slice(0, 12).map((item) => (
+        {data.map((item) => (
             <div
               key={item.id}
               className="border border-orange-300 rounded-lg p-3 bg-white shadow-lg hover:shadow-orange-300/70 hover:scale-105 transition-transform duration-300"
